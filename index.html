@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Redesign Charts</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .chart-container {
+      margin-bottom: 50px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+    .chart-title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .chart-iframe {
+      display: block;
+      margin: 0 auto;
+      border: none;
+    }
+    .caption {
+      text-align: center;
+      font-style: italic;
+      margin-top: 10px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Chart Collection</h1>
+  
+  <!-- Chart 1 -->
+  <div class="chart-container1">
+    <div class="chart-title">Distribution of Public Schools by County and Title I Status in NYC-Area (2015-2016) </div>
+    <!-- Embed your first chart. Adjust width and height as needed. -->
+    <iframe class="chart-iframe" src="sunburst_chart.html" width="900" height="400"></iframe>
+    <p class="caption">Caption: Describe Chart 1 here.</p>
+  </div>
+  
+  <!-- Chart 2 -->
+  <div class="chart-container">
+    <div class="chart-title">National Hourly Wage Gap Over Time by Race & Gender</div>
+    <iframe class="chart-iframe" src="line_plot.html" width="900" height="700"></iframe>
+    <p class="caption">Caption: Describe Chart 
